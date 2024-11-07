@@ -31,6 +31,7 @@
 }
 
 .bahay-con-cont span{
+  display: flex;
   text-align: center;
   font-optical-sizing: auto;
   font-weight: 500;
@@ -92,7 +93,7 @@ from {width: 0; animation-delay: 10s; }
   padding: 5px 18px;
   border-radius: 20px;
   box-shadow: 20px 20px 50px black;
-  transition: all 1s ; 
+  transition: all 0.3s ; 
 }
 
 .p-1:hover{
@@ -104,7 +105,7 @@ from {width: 0; animation-delay: 10s; }
   border-style: solid;
   font-weight: bold;
   box-shadow: 10px 10px 50px rgb(186, 255, 57);
-  transition: all 1s ; 
+  
 }
 
 .p-2{
@@ -118,7 +119,7 @@ from {width: 0; animation-delay: 10s; }
   padding: 5px 18px;
   border-radius: 20px;
   box-shadow: 10px 10px 50px rgb(186, 255, 57);
-  transition: all 1s ; 
+  transition: all 0.3s ; 
 }
 
 .p-2:hover{
@@ -129,4 +130,8 @@ from {width: 0; animation-delay: 10s; }
   border-radius: 20px;
   box-shadow: 20px 20px 50px black;
   cursor: pointer;
+}
+
+.home-button a{
+  text-decoration: none;
 }

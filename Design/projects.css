@@ -22,9 +22,9 @@ position: relative;
  animation: bounce 5s ease 2s 10 ;
 }
 
-.project-cont p{
+.project-cont a{
   position: absolute;
-  top: 88%;
+  top: 90%;
   left: 85%;
   z-index: 3;
   font-size: 15px;
@@ -33,10 +33,10 @@ position: relative;
   padding: 5px 10px;
   border-radius: 20px;
   box-shadow: 20px 20px 50px black;
-  transition: all 1s ; 
+  transition: all 0.3s ; 
 }
 
-.project-cont p:hover{
+.project-cont a:hover{
   background-color: transparent;
   cursor: pointer;
   color: rgb(186, 255, 57) ;
@@ -45,7 +45,7 @@ position: relative;
   border-style: solid;
   font-weight: bold;
   box-shadow: 10px 10px 50px rgb(186, 255, 57);
-  transition: all 1s ; 
+  
 }
 
 .project-img-cont{

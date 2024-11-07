@@ -19,6 +19,10 @@
   <link rel="stylesheet" href="Design/skills.css">
   <link rel="stylesheet" href="Design/projects.css">
   <link rel="stylesheet" href="Design/footer.css">
+  <link rel="stylesheet" href="Design/contact.css">
+
+ 
+
 
 
 </head>
@@ -48,6 +52,7 @@
     </div>
 
     <div class="bahay-cont" id="home">
+      
 
         <img src="Images/about1.jpg">
            
@@ -65,7 +70,7 @@
       
 
         <div class="home-button">
-          <a>
+          <a href="projects.html">
             <h6 class="p-1">View Projects</h6>
           </a>
 
@@ -91,7 +96,9 @@
 
     <div class="skill-cont">
       <span> Skills</span>
-      <p>Read more...</p>
+      
+        <a href="projects.html">Read more...</a>
+        
 
       <div class="skill-img-cont" id="project"> 
 
@@ -104,8 +111,12 @@
     </div>
 
     <div class="project-cont">
+
       <span> Projects</span>
-      <p>Read more...</p>
+
+      
+        <a href="projects.html">Read more...</a>
+     
 
       <div class="project-img-cont"> 
 
@@ -117,6 +128,33 @@
       </div>
     </div>
 
+
+  </div>
+    
+  <div class="contact-cont">
+
+    <p> Enter your email</p>
+    <input class="email" type="email">
+
+    <p>Date</p>
+    <input class="date" type="date">
+
+    <p>Enter Message</p>
+    <input class="message" type="text">
+
+    <button class="send" onclick="callAlert ('Your message has been sent')">SEND</button>
+    
+    
+    
+    <script>
+      function callAlert (msg) {
+        alert(msg)
+      }
+    </script>
+
+
+  </div>
+
     <div class="footer-cont">
       <span id="contact">Get in touch</span>
      
@@ -125,20 +163,19 @@
       </p>
 
       <div class="footer-img-cont">
-        <a href="#home"> 
+        <a href="https://www.facebook.com/profile.php?id=100009407843330" target="_blank"> 
           <img src="Images/fb-removebg-preview.png" >
         </a>
         <a href="#home">
           <img src="Images/insta-removebg-preview.png" >
         </a>
-        <a href="#home">
-          <img src="Images/gmail-removebg-preview.png" >
+        <a href="https://github.com/EulinPaulAnthony" target="_blank">
+          <img src="Images/github-removebg-preview.png" >
         </a>
         
         
       </div>
-    </div>
-    
+   
  
  
 </body>
